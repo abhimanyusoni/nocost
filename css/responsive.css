@@ -1,0 +1,110 @@
+@media screen and (max-width:1366px){
+    header.site_header div.main_header .header_menu ul li a{
+        margin: 5px 0;
+    }
+    .slick-carousel.slick-initialized.slick-slider .slick-track .slide_individual .info h2{
+        line-height: 74px;
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+    .slick-carousel.slick-initialized.slick-slider .slick-track .slide_individual .info .contains div:nth-child(2){
+        margin: 0 10px;
+        padding: 0 10px;
+    }
+    .slick-carousel.slick-initialized.slick-slider .slick-track .slide_individual .info .contains div{
+        font-size: 16px;
+    }
+    .slick-carousel.slick-initialized.slick-slider .slick-track .slide_individual .info h5{
+        font-size: 18px;
+    }
+    section#about_us .about_main .about_info {
+        max-width: 300px;
+        padding: 20px 40px 30px;
+        bottom: 10%;
+    }
+    
+}
+
+@media screen and (max-width: 1024px){
+    .slick-carousel.slick-initialized.slick-slider .slick-track .slide_individual{
+        display: block;
+        text-align: center;
+        height: unset;
+        padding-top: 100px; padding-bottom: 100px;
+    }
+    .slick-carousel.slick-initialized.slick-slider .slick-track .slide_individual .img{
+        width: 200px;
+        margin-top: 30px;
+        margin: auto;
+    }
+    .slick-carousel.slick-initialized.slick-slider .slick-track .slide_individual .img img{
+        width: 100%;
+    }
+    .slick-carousel.slick-initialized.slick-slider .slick-track .slide_individual .info{
+        width: 100%;
+        padding: 0;
+        margin-top: 40px;
+    }
+    .slick-carousel.slick-initialized.slick-slider .slick-track .slide_individual .info .contains{
+        justify-content: center;
+    }
+    section#about_us .about_main{height: 100%;}
+    section#about_us{padding-left: 0; height: unset;}
+    section#about_us .about_main .about_main_img{width: 100%;}
+    section#about_us .about_main{display: block;}
+    section#about_us .about_main .about_info {
+        position: unset;
+        width: auto;
+        max-width: 100%; text-align: center;
+    }
+    section#informative_slider{height: unset;}
+    .slick-slider{margin-bottom: 0;}
+}
+
+@media screen and (max-width: 991px){
+    .mob_toggle{
+        display: block;
+    }
+    section{
+        margin-left: 0 !important;
+    }
+    header.site_header{width: 100%; position: fixed; height: unset;}
+    header.site_header div.main_header .logo{padding-top: 30px; padding-bottom: 30px; margin: 0; text-align: left; padding-left: 30px;}
+    header.site_header div.main_header .header_menu {position: unset; transform: unset;}
+    header.site_header div.main_header .header_social{position: absolute; top: calc(100% - 280px); width: 100%;}
+    header.site_header div.main_header .header_menu {margin-bottom: 30px;}
+    .for_mob{position: fixed; width: 40%; z-index: -1; background: #000; height: 100vh; right: -40%; top: 0; padding-top: 200px;}
+    .for_mob.shown{right: 0;}
+    body.hidden{overflow: hidden;}
+    section#home_banner {margin-top: -2px; background-position-y: 100px;}
+    section#home_banner .slider_icon{display: none;}
+}
+
+@media screen and (max-width: 767px){
+    section#about_us .about_main .about_info h2{font-size: 48px;}
+    .slick-carousel.slick-initialized.slick-slider .slick-track .slide_individual .img{width: 130px;}
+    .for_mob{width: 60%; right: -60%;}
+    .slick-carousel.slick-initialized.slick-slider button{bottom: 35px; top: auto;}
+    .slick-carousel.slick-initialized.slick-slider .slick-track .slide_individual{padding-top: 50px; padding-bottom: 120px;}
+    .slick-carousel.slick-initialized.slick-slider button.slick-next{left: 52%;}
+    .slick-carousel.slick-initialized.slick-slider button.slick-prev{left: calc(50% - 50px);}
+
+}
+
+@media screen and (max-width: 575px){
+    header.site_header div.main_header .logo {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin: 0;
+        text-align: left;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (max-height: 650px){
+    .for_mob{padding-top: 140px;}
+    header.site_header div.main_header .header_social {
+        position: absolute;
+        top: calc(100% - 218px);
+    }
+}
