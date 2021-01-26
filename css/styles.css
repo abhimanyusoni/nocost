@@ -143,6 +143,10 @@ section#home_banner .scroll_down {
   bottom: 30px;
 }
 
+section#home_banner .scroll_down a {
+  text-decoration: none;
+}
+
 section#home_banner .scroll_down a h4 {
   font: 700 15px "DINProCondensedBold";
   color: #fff;

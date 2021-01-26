@@ -99,6 +99,10 @@
         text-align: left;
         padding-left: 20px;
     }
+    header.site_header div.main_header .logo img{width: 100px;}
+    section#home_banner {background-position-y: 75px;}
+    .mob_toggle span {width: 25px; margin: 5px 0;}
+    .mob_toggle span.opened:nth-child(2) {margin-top: -7px;}
 }
 
 @media screen and (max-height: 650px){
